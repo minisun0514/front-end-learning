@@ -1,19 +1,7 @@
 <template>
-    <h1> Counter: {{ counter }}</h1>
+    <p>
+        <router-link to="/user">Go to User</router-link>
+        <router-link to="/about">Go to About</router-link>
+    </p>
+    <router-view></router-view>
 </template>
-
-
-<script>
-    export default {
-        data() {
-            return {
-                counter: 0
-            }
-        },
-        mounted() {
-            setInterval(() => {
-                this.counter++
-            }, 1000)
-        }
-    }
-</script>
