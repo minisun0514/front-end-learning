@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "vue": "^3.2.31",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
